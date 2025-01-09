@@ -2,6 +2,14 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
+  ssr: true,
+  target: 'static',
+  generate: {
+    dir: "dist",
+    cache: {
+      ignore: ["renovate.json"],
+    },
+  },
 
   postcss: {
     plugins: {
