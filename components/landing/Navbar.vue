@@ -6,7 +6,7 @@ const menuitems = [
   },
   {
     title: "Pricing",
-    path: "/pricing",
+    path: "#pricing",
   },
   // {
   //   title: "About",
@@ -14,7 +14,7 @@ const menuitems = [
   // },
   {
     title: "Contact",
-    path: "/contact",
+    path: "#contact",
   },
 ];
 
