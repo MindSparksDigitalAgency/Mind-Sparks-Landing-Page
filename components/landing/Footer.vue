@@ -1,7 +1,10 @@
 <template>
   <footer class="my-20">
     <p class="text-center text-sm text-slate-500">
-      Copyright © {{ new Date().getFullYear() }} Nuxtship. All rights reserved.
+      Copyright © {{ new Date().getFullYear() }} <a href="/" class="text-lg"
+          ><span class="font-bold text-slate-800">Mind</span
+          ><span class="text-slate-500">Sparks</span>
+        </a>. All rights reserved.
     </p>
     <!--
       Can we ask you a favor 🙏
@@ -15,7 +18,7 @@
         rel="noopener"
         class="hover:underline"
       >
-        Gr33nW33n
+      ❤️
       </a>
       with attribution to
       <a
@@ -24,7 +27,7 @@
         rel="noopener"
         class="hover:underline"
       >
-        Web3Templates
+        MindSparks Developer Team
       </a>
     </p>
   </footer>
